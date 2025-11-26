@@ -463,6 +463,44 @@
     ></script>
   </body>
 </html>
+<!-- Botão WhatsApp Flutuante -->
+<a
+  href="https://wa.me/5511956898326text=Olá! Quero mais informações."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+       alt="WhatsApp" />
+</a>
+
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: transform 0.2s ease;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float img {
+    width: 32px;
+    height: 32px;
+  }
+</style>
+
 
 
 
