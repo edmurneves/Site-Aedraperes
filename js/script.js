@@ -15,10 +15,10 @@ btnNavEl.addEventListener("click", function () {
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 
-/* const allLinks = document.querySelectorAll("a:link");
+ const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    e.preventDefault();
+    //e.preventDefault();
     const href = link.getAttribute("href");
 
     if (href === "#")
@@ -36,7 +36,7 @@ allLinks.forEach(function (link) {
       headerEl.classList.toggle("nav-open");
   });
 });
-*/
+
 //////////////////////////////////////////////////////////////
 //Sticky navigation
 const sectionHeroEl = document.querySelector(".section-hero");
