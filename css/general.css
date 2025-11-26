@@ -54,7 +54,8 @@ Default: 9px
 html {
   /* font-size: 10px; */
   font-size: 62.5%;
-
+  scroll-behavior: smooth;
+}
   /*Necessário adicionar overflow hidden
   para que o menu funcione corretamente */
   overflow-x: hidden;
@@ -223,3 +224,4 @@ body {
 strong {
   font-weight: 500;
 }
+
